@@ -1,7 +1,7 @@
 const routes = require('express').Router();
 const session = require('../controllers/session');
 const conversation = require('../controllers/conversation');
-const messages = require('');
+const messages = require('../controllers/messages');
 const dotenv = require("dotenv").config();
 
 
